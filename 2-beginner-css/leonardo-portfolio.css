@@ -1,0 +1,46 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-image: url(https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+  color: #102900;
+}
+
+header {
+  /*
+    Contrast Ratio - All pass.
+    Background color has opacity,
+    I'm using an approximated color obtained through an eyedropper:
+    https://webaim.org/resources/contrastchecker/?fcolor=102900&bcolor=E2E9D4
+  */
+  background-color: rgba(162, 193, 108, 0.25);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+a {
+  color: #102900;
+  font-weight: bold;
+}
+
+.container {
+  /*
+    Contrast Ratio - All pass.
+    Background color has opacity,
+    I'm using an approximated color obtained through an eyedropper:
+    https://webaim.org/resources/contrastchecker/?fcolor=102900&bcolor=EEF1E8
+  */
+  background-color: rgba(162, 193, 108, 0.1);
+}
+
+footer {
+  text-align: center;
+}
