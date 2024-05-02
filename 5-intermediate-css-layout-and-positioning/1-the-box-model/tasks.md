@@ -24,7 +24,8 @@ You’ll go through Davie’s Burger’s menu item roughly from top to bottom. L
 - [x] TASK 2
 
 Set margin of span elements inside the nav to 10 pixels on the top and bottom, and 0 pixels on the left and right.
-3.
+
+- [x] TASK 3
 
 Now set some rules for the element with the class content. This element is a container for all the elements not included in <code>nav</code>.
 
