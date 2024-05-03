@@ -1,0 +1,62 @@
+.lain-no-clear {
+  float: left;
+  margin-right: 2em;
+}
+
+.lain-left {
+  float: left;
+}
+
+.para-clear-left {
+  clear: left;
+}
+
+.lain-right {
+  float: right;
+}
+
+.para-clear-right {
+  clear: right;
+  margin-bottom: 5em;
+}
+
+/* Div area */
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.div-red {
+  float: right;
+  background-color: red;
+}
+
+.div-magenta {
+  background-color: magenta;
+  float: left;
+}
+
+.div-grey {
+  background-color: grey;
+  clear: left;
+}
+
+.div-orange {
+  background-color: orange;
+  clear: left;
+  margin: 0 auto;
+}
+
+.div-cyan {
+  background-color: cyan;
+  float: right;
+}
+
+.div-pink {
+  background-color: pink;
+  clear: right;
+  float: right;
+}
+
+
