@@ -27,7 +27,7 @@ nav li {
 main {
   text-align: center;
   position: relative;
-  top: 80px;
+  top: 60px;
 }
 
 main h1 {
@@ -48,7 +48,7 @@ footer {
   position: fixed;
   z-index: 999;
   width: 100%;
-  bottom: 0px;
+  bottom: 0;
   
 }
 
