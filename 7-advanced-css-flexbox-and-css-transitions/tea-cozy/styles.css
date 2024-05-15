@@ -182,6 +182,10 @@ main {
   opacity: 1;
 }
 
+/* ====================
+   Contact
+   ==================== */
+
 #contact {
   height: 200px;
 }
@@ -193,6 +197,10 @@ main {
 .contact-body {
   margin-bottom: 1.5em;
 }
+
+/* ====================
+   Footer
+   ==================== */
 
 footer {
   padding: 20px;
