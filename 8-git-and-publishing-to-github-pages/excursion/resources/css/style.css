@@ -1,17 +1,81 @@
 body {
   font-family: Verdana, sans-serif;
-  font-size: 16px;
-  font-weight: normal;
   text-align: center;
   color: white;
   background-color: black;
 }
 
+nav {
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1em;
+  transition: transform 250ms;
+}
+
+nav li:hover,
+nav li:focus {
+  transform: scale(1.1);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.based,
+.based > * {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.based {
+  color: white;
+}
+
 h1 {
   font-size: 50px;
+  font-weight: normal;
 }
 
 a {
   color: aquamarine;
   font-size: 16px;
+}
+
+a:hover,
+a:focus {
+  color: #d0fdee;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+p {
+   font-size: 21px;
+   color: gray;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#coming-soon img {
+  margin-top: 21px;
+}
+
+footer {
+  text-align: right;
+  color: gray;
 }
