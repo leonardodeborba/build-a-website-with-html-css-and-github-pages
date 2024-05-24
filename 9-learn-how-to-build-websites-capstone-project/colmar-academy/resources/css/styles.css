@@ -35,11 +35,13 @@ Header
 */
 
 header {
-  height: 64px;
-  padding: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1235px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 24px;
 }
 
 .header-logo {
@@ -89,6 +91,9 @@ Main content
 .container {
   display: flex;
   gap: 24px;
+  max-width: 1235px;
+  margin: 0 auto;
+  border: 2px solid #e3e3e3;
   padding: 32px 24px;
 }
 
@@ -253,4 +258,88 @@ Section 3
 
 .section-3-content-item-subtitle {
   margin: 8px 0;
+}
+
+/*
+====================
+Section 4
+====================
+*/
+
+/* Section 4 main */
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-4-title {
+  align-self: center;
+}
+
+.section-4-content {
+  display: flex;
+  gap: 24px;
+}
+
+.section-4-content-main {
+  width: 60%;
+}
+
+.section-4-content-main-video {
+  width: 100%;
+}
+
+.section-4-content-main-title {
+  margin: 24px 0 8px 0;
+}
+
+/* Section 4 aside */
+
+.section-4-content-aside {
+  width: 40%;
+}
+
+.section-4-content-aside-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.section-4-content-aside-item-first {
+  background-color: #e3e3e3;
+}
+
+.section-4-content-aside-item-img {
+  width: 35%;
+}
+
+.section-4-content-aside-item-content {
+  width: 65%;
+}
+
+.section-4-content-aside-item-title {
+  margin-bottom: 8px;
+} 
+
+/*
+====================
+Footer
+====================
+*/
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1235px;
+  margin: 0 auto;
+  border: 2px solid #e3e3e3;
+  border-top: 0;
+  padding: 16px 24px 40px 24px;
+}
+
+.footer-terms-privacy {
+  display: flex;
+  gap: 16px;
 }
